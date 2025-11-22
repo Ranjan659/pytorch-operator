@@ -34,4 +34,4 @@ venv\Scripts\activate             # Windows
 
 Installation
 Install in editable mode (this builds the C++ extension):
-Bashpip install -e .
+pip install -e .

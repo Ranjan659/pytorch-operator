@@ -1,0 +1,32 @@
+# Python / venv
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# PyTorch extension build temp
+*.cpython-*.pyc
+*.o
+*.obj
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

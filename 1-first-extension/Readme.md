@@ -4,16 +4,18 @@ This project is a **PyTorch C++ extension** example.
 It demonstrates how to write a simple custom C++ operator, compile it as a Python module, and call it from Python.
 
 ## Project Structure
+```text
 1-first-extension/
 ├── src/
 │   └── core.cpp                   # C++ source for the add_tensors operator
 ├── my_ops/
-│   ├── init.py                # Python wrapper for the extension
+│   ├── __init__.py                # Python wrapper for the extension
 ├── tests/
 │   └── test_add.py                # Simple test for add_tensors
 ├── setup.py                       # Build script for the extension
 ├── pyproject.toml                 # Ensures torch is available during build
-└── README.md                       # This file
+├── README.md                      # This file
+└── .gitignore                     # Ignores build artifacts
 
 
 ## Requirements

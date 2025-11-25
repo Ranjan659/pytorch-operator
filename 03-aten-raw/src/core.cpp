@@ -12,6 +12,6 @@ at::Tensor mul_add(const at::Tensor& x,
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
     m.def("mul_add", &mul_add,
-          "x * y + z using raw ATen (Day 3)",
+          "3: x * y + z using raw ATen",
           py::arg("x"), py::arg("y"), py::arg("z"));
 }
